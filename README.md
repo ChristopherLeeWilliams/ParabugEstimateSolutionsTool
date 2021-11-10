@@ -95,7 +95,7 @@ The process completes when the customer submits the request, which emails the ap
 > 
 > **Tileization** can be thought of as mapping the pixels of the original image to tiles on a geographic plane. Each tile represents 1 or more pixels from the original image. The tile’s size is specified by user input, in feet, and the color is obtained by finding the most frequent pixel color among the pixels it represents from the original image.
 > 
-> All overlays on import can have a color palette applied to them. This color palette is either user-generated or auto-generated, and maps the original colors from the image to a from the color palette color. Color palette generation and application are done through processes which combine color frequencies and Euclidean color distance. These functions, “applyColorPalette” and “generateColorPalette", are found and described in the “GMapsOverlayLayer” class.
+> All overlays on import can have a color palette applied to them. This color palette is either user-generated or auto-generated, and maps the original colors from the image to a color palette color. Color palette generation and application are done through processes which combine color frequencies and Euclidean color distance. These functions, “applyColorPalette” and “generateColorPalette", are found and described in the “GMapsOverlayLayer” class.
 > 
 > ---
 > 
