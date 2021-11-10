@@ -101,13 +101,13 @@ The process completes when the customer submits the request, which emails the ap
 > 
 > ### 1) KMZ File Import and Tile + Color Palette Settings
 > 
-> <img src="public/img/readme/kmzImport.png" alt="KMZ Import and Overlay Settings" width="800">
+> <img src="public/img/readme/kmzImport.PNG" alt="KMZ Import and Overlay Settings" width="800">
 > 
 > </br>
 > 
 > ### 2) KMZ Tileized on Map With Color Palette Applied
 > 
-> <img src="public/img/readme/kmzOverlay.png" alt="KMZ Overlay on Map Tileized" width="800">
+> <img src="public/img/readme/kmzOverlay.PNG" alt="KMZ Overlay on Map Tileized" width="800">
 
 </br>
 
@@ -119,10 +119,10 @@ The process completes when the customer submits the request, which emails the ap
 > 
 > ### 1) Color Selection in VRA Auto Generation Tool (No Application Area Drawn)
 > 
-> <img src="public/img/readme/vraAG1.png" alt="VRA Auto Generation Color Selection" width="800">
+> <img src="public/img/readme/vraAG1.PNG" alt="VRA Auto Generation Color Selection" width="800">
 > 
 > </br>
 > 
 > ### 2) Variable Rate Areas Generated From Color Selection
 > 
-> <img src="public/img/readme/vraAG2.png" alt="Variable Rate Areas Generated From Color Selection" width="800">
+> <img src="public/img/readme/vraAG2.PNG" alt="Variable Rate Areas Generated From Color Selection" width="800">
