@@ -1864,7 +1864,6 @@ class GMapsOverlay {
         const fr = new FileReader();
         fr.onload = function(e) {
             const geoJson = JSON.parse(e.target.result);
-            // that.loadOverlayFromGeoJsonFeatureCollection(geoJson);
             that.loader.addLayer("GeoJson Layer", geoJson);
             that.loader.generateModalPrompt();
         };
@@ -2087,6 +2086,7 @@ class GMapsOverlay {
      * 
      * Required libraries:
      *  - geoxml3 [https://github.com/ChristopherLeeWilliams/geoxml3]
+     *  - forked from: [https://github.com/geocodezip/geoxml3]
      */
     loadOverlayFromKMZ() {
         const that = this;
@@ -2147,7 +2147,6 @@ class GMapsOverlay {
                     zip.file(baseFileName+'.dbf').async("arraybuffer").then((dbfArrayBuffer) => {
                         // Using shapefile read both buffers and generate a GeoJson object with the data
                         require("shapefile").read(shpArrayBuffer, dbfArrayBuffer).then((data) => {
-                            // this.loadOverlayFromGeoJsonFeatureCollection(data);
                             that.loader.addLayer("Shapefile Layer", data);
                             that.loader.generateModalPrompt();
                         })
